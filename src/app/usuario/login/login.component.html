@@ -1,0 +1,29 @@
+<div class="container main-content card-container">
+    <div class="row">
+        <div class="col login-card">
+            <mat-card>
+                <mat-card-header class="card-title">
+                    <mat-card-title style="text-align: center; padding: 0 100px 0 100px;">Login</mat-card-title>
+                </mat-card-header>
+                <mat-card-content>  
+                    <mat-form-field>
+                        <mat-label>Usuário</mat-label>
+                        <input matInput>
+                    </mat-form-field> <br>
+                    <mat-form-field>
+                        <mat-label>Senha</mat-label>
+                        <input matInput>
+                    </mat-form-field>
+                    <br>
+                        <button mat-raised-button color="primary" style="outline:none;">Acessar</button>
+                        <p></p>
+                </mat-card-content>
+                <mat-card-footer>
+                    <p>
+                        Não possui conta? <strong class="register-button" [routerLink]="['usuario/registro']"> Registrar-se </strong>
+                    </p>
+                </mat-card-footer>
+            </mat-card>
+        </div>
+    </div>
+</div>

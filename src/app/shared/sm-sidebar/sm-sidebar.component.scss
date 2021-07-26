@@ -1,0 +1,35 @@
+.main-content { 
+    height: 100%;
+    background-color: #bfd6f8;
+}
+
+.sidebar-content { 
+    margin-top: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sidebar-option { 
+    padding-top: 11px;
+    opacity: 0.6;
+    transition: 0.3s;
+    &:hover { 
+        opacity: 1;
+        cursor: pointer;
+    }
+}
+
+.sidenav-button { 
+    outline:none;
+    background-color: #0d6efd;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 60px;
+    margin-left: 20px;
+}
+
+.sidenav-icon { 
+    padding-right: 5px;
+    font-size: 15px;
+}

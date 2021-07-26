@@ -1,0 +1,24 @@
+@import '../../app.component.scss';
+
+
+.card-title { 
+    justify-content: center;
+}
+
+
+.card-container { 
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.register-button { 
+    opacity: 0.6;
+    transition: 0.3s;
+    &:hover { 
+        opacity: 1;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,15 @@
+<mat-sidenav-container class="main-content">
+    <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+        <div class="sidebar-content">
+            <div class="sidebar-option">
+                <p><strong style="outline: none;" [routerLink]="['cria-agenda']"> <fa-icon class="sidenav-icon" [icon]="clipboardList"></fa-icon> Minha agenda</strong></p>
+            </div>
+        </div>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <button (click)="sidenav.toggle()" mat-mini-fab class="sidenav-button"> <mat-icon>menu</mat-icon></button>
+        <router-outlet>
+        </router-outlet>
+    </mat-sidenav-content>
+  </mat-sidenav-container>
+  
